@@ -2,6 +2,7 @@ import 'package:authorization/theme/app_theme.dart';
 import 'package:flutter/material.dart';
 
 class AuthorizationTextField extends StatelessWidget {
+  final TextEditingController controller;
   final String labelText;
   final String hintText;
   final IconData suffixIcon;
@@ -16,7 +17,7 @@ class AuthorizationTextField extends StatelessWidget {
       this.obscureText = false,
       @required this.onChange,
       @required this.validator,
-      this.hintText})
+      this.hintText, this.controller})
       : super(key: key);
 
   @override
@@ -24,6 +25,7 @@ class AuthorizationTextField extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.all(8.0),
       child: TextFormField(
+        controller: controller,
         style: TextStyle(fontSize: 21),
         decoration: InputDecoration(
           floatingLabelBehavior: FloatingLabelBehavior.always,
@@ -43,7 +45,6 @@ class AuthorizationTextField extends StatelessWidget {
           filled: true,
           fillColor: AppTheme.backgroundColor,
         ),
-        autovalidate: true,
         onChanged: (value) => onChange(value),
         validator: (value) => validator(value),
         obscureText: obscureText,

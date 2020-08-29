@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "13031994117",
+    "firebase_url": "https://authorizationtest-f8f1f.firebaseio.com",
+    "project_id": "authorizationtest-f8f1f",
+    "storage_bucket": "authorizationtest-f8f1f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:13031994117:android:a7630bd49dc1d4a8afbd6c",
+        "android_client_info": {
+          "package_name": "akhmetzzz.authorization"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "13031994117-270r3irdmmbb0arpqoteh59i6a2g4u8u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAevyC9MTK_Q2ChBeBxagBoogUU5FMkzvA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "13031994117-270r3irdmmbb0arpqoteh59i6a2g4u8u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

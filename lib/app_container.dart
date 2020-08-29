@@ -11,14 +11,14 @@ class AppContainer extends StatefulWidget {
 
   @override
   AppContainerState createState() => AppContainerState();
-
-  static AppContainerState of(BuildContext context) {
-    return context.dependOnInheritedWidgetOfExactType<AppController>().state;
-  }
 }
 
 class AppContainerState extends State<AppContainer> {
   BlocProvider get blocProvider => widget.blocProvider;
+
+  static AppContainerState of(BuildContext context) {
+    return context.dependOnInheritedWidgetOfExactType<AppController>().state;
+  }
 
   @override
   Widget build(BuildContext context) {

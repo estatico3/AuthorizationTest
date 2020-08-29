@@ -25,7 +25,7 @@ class DefaultButton extends StatelessWidget {
               .button
               .copyWith(color: AppTheme.backgroundColor),
         ),
-        onPressed: () {},
+        onPressed: () => onPress(),
       ),
     );
   }

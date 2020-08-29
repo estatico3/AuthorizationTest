@@ -1,4 +1,4 @@
-import 'package:authorization/scenese/sign_in/components/body.dart';
+import 'package:authorization/scenes/sign_in/components/body.dart';
 import 'package:authorization/theme/app_theme.dart';
 import 'package:flutter/material.dart';
 
